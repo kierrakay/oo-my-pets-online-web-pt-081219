@@ -81,7 +81,7 @@ end
 
  def sell_pets
   
-self.dogs.collect do |dog| 
+self.dogs.collect do |dog| #iterates through collection and return both the bottom
    dog.owner = nil
    dog.mood = "nervous"
  end 
